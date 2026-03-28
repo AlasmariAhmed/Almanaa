@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Almanaa Law – Institutional Inquiries, Riyadh Saudi Arabia</title>
+    <meta name="description"
+        content="Contact Almanaa Law Firm in Riyadh for institutional legal services. Phone, email, and inquiry form for corporate, M&A, and real estate legal matters.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://almanaa.com/contact.html">
+    <meta property="og:title" content="Contact | Almanaa Law">
+    <meta property="og:description"
+        content="Initiate contact with Almanaa Law Firm for institutional legal services in Saudi Arabia and the Middle East.">
+    <meta property="og:url" content="https://almanaa.com/contact.html">
+    <link rel="alternate" hreflang="en" href="https://almanaa.com/contact.html">
+    <link rel="alternate" hreflang="ar" href="https://almanaa.com/contact-ar.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Epilogue', system-ui, sans-serif;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            border-bottom: var(--border);
+        }
+
+        @media (min-width: 1024px) {
+            .contact-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .contact-info-panel {
+            padding: 48px 24px;
+            border-bottom: var(--border);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        @media (min-width: 1024px) {
+            .contact-info-panel {
+                padding: 80px;
+                border-bottom: none;
+                border-right: var(--border);
+            }
+        }
+
+        .contact-form-panel {
+            padding: 48px 24px;
+            background: var(--soft);
+        }
+
+        @media (min-width: 1024px) {
+            .contact-form-panel {
+                padding: 80px;
+            }
+        }
+
+        .contact-info-panel h1 {
+            font-size: clamp(2.4rem, 7vw, 5rem);
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 0.95;
+            letter-spacing: -0.03em;
+            margin-bottom: 24px;
+        }
+
+        .contact-info-panel p {
+            font-size: clamp(0.88rem, 2vw, 1rem);
+            font-weight: 600;
+            opacity: 0.75;
+            line-height: 1.75;
+            margin-bottom: 36px;
+        }
+
+        .contact-detail {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 16px 0;
+            border-top: 1px solid rgba(1, 63, 52, 0.15);
+            font-weight: 600;
+            font-size: 0.88rem;
+        }
+
+        .contact-detail:first-of-type {
+            border-top: var(--border);
+        }
+
+        .contact-detail:last-of-type {
+            border-bottom: var(--border);
+            margin-bottom: 0;
+        }
+
+        .detail-label {
+            font-size: 0.6rem;
+            font-weight: 900;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            opacity: 0.4;
+            padding-top: 3px;
+            min-width: 20px;
+        }
+
+        .contact-detail a {
+            color: var(--green);
+            text-decoration: none;
+        }
+
+        .contact-detail a:hover {
+            opacity: 0.6;
+        }
+
+        .form-heading {
+            font-size: 0.65rem;
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--muted);
+            margin-bottom: 32px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html" class="nav-brand">
+            <img src="../logo.jpg" alt="Almanaa Logo" width="36" height="36">
+            <span>ALMANAA CORP.</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="about.html">The Firm</a></li>
+            <li><a href="services.html">Expertise</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact-ar.html" class="nav-lang" lang="ar" hreflang="ar">AR</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contact-grid">
+            <!-- LEFT: Info -->
+            <div class="contact-info-panel">
+                <span class="split-label">COMMAND // HQ</span>
+                <h1>Initiate<br>Contact.</h1>
+                <p>We operate strictly for institutional accounts. Submit your structural requirements for board-level
+                    review.</p>
+
+                <div class="contact-detail">
+                    <span class="detail-label">T.</span>
+                    <a href="tel:+966110000000">+966 11 000 0000</a>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-label">E.</span>
+                    <a href="mailto:initiate@almanaa.com">initiate@almanaa.com</a>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-label">L.</span>
+                    <span>KAFD, Riyadh, Saudi Arabia</span>
+                </div>
+            </div>
+
+            <!-- RIGHT: Form -->
+            <div class="contact-form-panel">
+                <p class="form-heading">SUBMIT A DIRECTIVE</p>
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); this.innerHTML='<p style=\'font-size:1rem;font-weight:700;padding:24px 0\'>Directive received. Board review initiated.</p>';"
+                    novalidate>
+                    <div class="form-field">
+                        <label for="enterprise">Enterprise Name</label>
+                        <input type="text" id="enterprise" name="enterprise" placeholder="e.g. Acme Corp" required
+                            autocomplete="organization">
+                    </div>
+                    <div class="form-field">
+                        <label for="directive">Directive</label>
+                        <input type="text" id="directive" name="directive" placeholder="e.g. M&A Advisory">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="ceo@corp.com" required
+                            autocomplete="email">
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Brief</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Outline the scope..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Directive</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- BANNER -->
+    <div class="banner" aria-hidden="true">
+        <img src="banner.png" alt="" loading="lazy" decoding="async" width="1400" height="800">
+    </div>
+
+    <footer class="main-footer">
+        <span>HQ: Riyadh, Saudi Arabia</span>
+        <nav aria-label="Footer links" class="footer-nav">
+            <a href="about.html">The Firm</a> &nbsp;·&nbsp;
+            <a href="services.html">Expertise</a> &nbsp;·&nbsp;
+            <a href="contact.html">Contact</a>
+        </nav>
+        <span>&copy; 2026 Almanaa</span>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('navToggle');
+        const links = document.getElementById('navLinks');
+        toggle.addEventListener('click', () => {
+            const open = links.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+            toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+        });
+        links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }));
+    </script>
+
+</body>
+
+</html>

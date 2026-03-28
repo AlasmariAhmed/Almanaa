@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الخبرات | المانع – الاندماجات والتقاضي والعقارات والامتثال في المملكة العربية السعودية</title>
+    <meta name="description"
+        content="مجالات ممارسة مكتب المانع: الاندماجات والاستحواذات، التقاضي التجاري، قانون العقارات، والامتثال المؤسسي للعملاء في المملكة العربية السعودية.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://almanaa.com/services-ar.html">
+    <meta property="og:title" content="الخبرات | مكتب المانع">
+    <meta property="og:description"
+        content="الاندماجات، التقاضي، العقارات والامتثال للعملاء المؤسسيين في المملكة العربية السعودية ومنطقة الشرق الأوسط.">
+    <meta property="og:url" content="https://almanaa.com/services-ar.html">
+    <link rel="alternate" hreflang="ar" href="https://almanaa.com/services-ar.html">
+    <link rel="alternate" hreflang="en" href="https://almanaa.com/services.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+        }
+
+        .card-num {
+            font-family: 'Epilogue', system-ui, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <a href="index-ar.html" class="nav-brand">
+            <img src="../logo.jpg" alt="شعار مكتب المانع" width="36" height="36">
+            <span>ALMANAA CORP.</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false"
+            aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="about-ar.html">الشركة</a></li>
+            <li><a href="services-ar.html">الخبرات</a></li>
+            <li><a href="contact-ar.html">تواصل</a></li>
+            <li><a href="services.html" class="nav-lang" lang="en" hreflang="en">EN</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header class="page-header">
+            <span class="page-label">خبرتنا // المانع</span>
+            <h1 class="page-title">مجال خبرتنا<br>على أعلى مستوى.</h1>
+            <p class="page-subtitle">نشر أُطر قانونية مؤسسية عالية الأداء عبر قطاعات متعددة الجنسيات.</p>
+        </header>
+
+        <section aria-label="مجالات الممارسة" class="card-grid">
+            <article class="card">
+                <span class="card-num">01</span>
+                <h3>الاندماجات والاستحواذات</h3>
+                <p>صياغة شروط الصفقات المليارية بدقة وسرعة لا تضاهى.</p>
+            </article>
+            <article class="card">
+                <span class="card-num">02</span>
+                <h3>التقاضي والتحكيم</h3>
+                <p>هياكل تحكيم للنزاعات المؤسسية ذات الاحتكاك العالي. دفاع لا يتوقف.</p>
+            </article>
+            <article class="card">
+                <span class="card-num">03</span>
+                <h3>العقارات</h3>
+                <p>استحواذات سيادية وتخطيط المشاريع الكبرى عبر المملكة والخليج.</p>
+            </article>
+            <article class="card card-dark">
+                <span class="card-num">04</span>
+                <h3>النزاهة والامتثال</h3>
+                <p>ضمان امتثال تنظيمي مطلق.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <div class="banner" aria-hidden="true">
+        <img src="banner.png" alt="" loading="lazy" decoding="async" width="1400" height="800">
+    </div>
+
+    <footer class="main-footer">
+        <span>المقر: الرياض، المملكة العربية السعودية</span>
+        <nav aria-label="روابط التذييل" class="footer-nav">
+            <a href="about-ar.html">الشركة</a> &nbsp;·&nbsp;
+            <a href="services-ar.html">الخبرات</a> &nbsp;·&nbsp;
+            <a href="contact-ar.html">تواصل</a>
+        </nav>
+        <span dir="ltr">&copy; 2026 Almanaa</span>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('navToggle');
+        const links = document.getElementById('navLinks');
+        toggle.addEventListener('click', () => {
+            const open = links.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+            toggle.setAttribute('aria-label', open ? 'إغلاق القائمة' : 'فتح القائمة');
+        });
+        links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }));
+    </script>
+
+</body>
+
+</html>

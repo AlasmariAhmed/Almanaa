@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تواصل | المانع – الاستفسارات المؤسسية، الرياض المملكة العربية السعودية</title>
+    <meta name="description"
+        content="تواصل مع مكتب المانع في الرياض للحصول على الخدمات القانونية المؤسسية. هاتف وبريد إلكتروني ونموذج استفسار للشؤون القانونية.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://almanaa.com/contact-ar.html">
+    <meta property="og:title" content="تواصل | مكتب المانع">
+    <meta property="og:description"
+        content="ابدأ التواصل مع مكتب المانع للحصول على الخدمات القانونية المؤسسية في المملكة العربية السعودية والشرق الأوسط.">
+    <meta property="og:url" content="https://almanaa.com/contact-ar.html">
+    <link rel="alternate" hreflang="ar" href="https://almanaa.com/contact-ar.html">
+    <link rel="alternate" hreflang="en" href="https://almanaa.com/contact.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            border-bottom: var(--border);
+        }
+
+        @media (min-width: 1024px) {
+            .contact-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .contact-info-panel {
+            padding: 48px 24px;
+            border-bottom: var(--border);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            order: 2;
+        }
+
+        @media (min-width: 1024px) {
+            .contact-info-panel {
+                padding: 80px;
+                border-bottom: none;
+                border-left: var(--border);
+                order: 2;
+            }
+        }
+
+        .contact-form-panel {
+            padding: 48px 24px;
+            background: var(--soft);
+            order: 1;
+        }
+
+        @media (min-width: 1024px) {
+            .contact-form-panel {
+                padding: 80px;
+                order: 1;
+            }
+        }
+
+        .contact-info-panel h1 {
+            font-size: clamp(2.4rem, 7vw, 5rem);
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.01em;
+            margin-bottom: 24px;
+        }
+
+        .contact-info-panel p {
+            font-size: clamp(0.88rem, 2vw, 1rem);
+            font-weight: 700;
+            opacity: 0.75;
+            line-height: 1.85;
+            margin-bottom: 36px;
+        }
+
+        .contact-detail {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 16px 0;
+            border-top: 1px solid rgba(1, 63, 52, 0.15);
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .contact-detail:first-of-type {
+            border-top: var(--border);
+        }
+
+        .contact-detail:last-of-type {
+            border-bottom: var(--border);
+        }
+
+        .detail-label {
+            font-size: 0.6rem;
+            font-weight: 900;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            opacity: 0.4;
+            padding-top: 3px;
+            min-width: 20px;
+            direction: ltr;
+        }
+
+        .contact-detail a {
+            color: var(--green);
+            text-decoration: none;
+            direction: ltr;
+        }
+
+        .contact-detail a:hover {
+            opacity: 0.6;
+        }
+
+        .form-heading {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--muted);
+            margin-bottom: 32px;
+        }
+
+        .btn-submit {
+            direction: rtl;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <a href="index-ar.html" class="nav-brand">
+            <img src="../logo.jpg" alt="شعار مكتب المانع" width="36" height="36">
+            <span>ALMANAA CORP.</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="فتح القائمة" aria-expanded="false"
+            aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="about-ar.html">الشركة</a></li>
+            <li><a href="services-ar.html">الخبرات</a></li>
+            <li><a href="contact-ar.html">تواصل</a></li>
+            <li><a href="contact.html" class="nav-lang" lang="en" hreflang="en">EN</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="contact-grid">
+            <!-- RIGHT (order-1 in RTL): Form -->
+            <div class="contact-form-panel">
+                <p class="form-heading">أرسل طلبك</p>
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); this.innerHTML='<p style=\'font-size:1rem;font-weight:700;padding:24px 0;text-align:right\'>تم استلام طلبك. جارٍ مراجعته من قِبل مجلس الإدارة.</p>';"
+                    novalidate>
+                    <div class="form-field">
+                        <label for="enterprise">اسم المؤسسة</label>
+                        <input type="text" id="enterprise" name="enterprise" placeholder="مثال: شركة الأمل" required
+                            autocomplete="organization">
+                    </div>
+                    <div class="form-field">
+                        <label for="directive">نوع الطلب</label>
+                        <input type="text" id="directive" name="directive" placeholder="مثال: استشارة اندماج">
+                    </div>
+                    <div class="form-field">
+                        <label for="email">البريد الإلكتروني</label>
+                        <input type="email" id="email" name="email" placeholder="ceo@company.com" required
+                            autocomplete="email" dir="ltr">
+                    </div>
+                    <div class="form-field">
+                        <label for="message">الملاحظات</label>
+                        <textarea id="message" name="message" rows="3" placeholder="اشرح نطاق الطلب..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">إرسال الطلب</button>
+                </form>
+            </div>
+
+            <!-- LEFT (order-2 in RTL): Info -->
+            <div class="contact-info-panel">
+                <span class="split-label">مركز القيادة // المقر</span>
+                <h1>ابدأ<br>التواصل.</h1>
+                <p>نعمل حصرياً للحسابات المؤسسية. أرسل متطلباتك الهيكلية للمراجعة على مستوى مجلس الإدارة.</p>
+
+                <div class="contact-detail">
+                    <span class="detail-label">T.</span>
+                    <a href="tel:+966110000000">+966 11 000 0000</a>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-label">E.</span>
+                    <a href="mailto:initiate@almanaa.com">initiate@almanaa.com</a>
+                </div>
+                <div class="contact-detail">
+                    <span class="detail-label">L.</span>
+                    <span>مركز الملك عبدالله المالي - الرياض، المملكة العربية السعودية</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- BANNER -->
+    <div class="banner" aria-hidden="true">
+        <img src="banner.png" alt="" loading="lazy" decoding="async" width="1400" height="800">
+    </div>
+
+    <footer class="main-footer">
+        <span>المقر: الرياض، المملكة العربية السعودية</span>
+        <nav aria-label="روابط التذييل" class="footer-nav">
+            <a href="about-ar.html">الشركة</a> &nbsp;·&nbsp;
+            <a href="services-ar.html">الخبرات</a> &nbsp;·&nbsp;
+            <a href="contact-ar.html">تواصل</a>
+        </nav>
+        <span dir="ltr">&copy; 2026 Almanaa</span>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('navToggle');
+        const links = document.getElementById('navLinks');
+        toggle.addEventListener('click', () => {
+            const open = links.classList.toggle('open');
+            toggle.setAttribute('aria-expanded', open);
+            toggle.setAttribute('aria-label', open ? 'إغلاق القائمة' : 'فتح القائمة');
+        });
+        links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            links.classList.remove('open');
+            toggle.setAttribute('aria-expanded', 'false');
+        }));
+    </script>
+
+</body>
+
+</html>
